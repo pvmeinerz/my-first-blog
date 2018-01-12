@@ -115,7 +115,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-ALLOWED_HOSTS = ['pvmeinerz.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1','pvmeinerz.pythonanywhere.com']
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/

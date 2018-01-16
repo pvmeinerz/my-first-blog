@@ -7,6 +7,7 @@
 <link href="//fonts.googleapis.com/css?family=Roboto&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 {% if user.is_authenticated %}
     <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+    <a href="{% url 'post_draft_list' %}" class="top-menu"><span class="glyphicon glyphicon-edit"></span></a>
 {% endif %}
 <link rel="stylesheet" href="{% static 'css/blog.css' %}">
         <title>Diário de Bordo </title>
@@ -14,7 +15,7 @@
 
     <body>
         <div class="page-header">
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="/">Diário de Bordo</a></h1>
         </div>
         <div class="content container">
             <div class="row">
